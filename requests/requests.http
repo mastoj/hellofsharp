@@ -1,0 +1,12 @@
+### Get ping
+http://localhost:5000/ping
+
+### Post car
+POST http://localhost:5000/cars
+Content-Type: application/json
+
+{
+    "name": "Ford",
+    "make": "Fiesta",
+    "wheels": "3"
+}
